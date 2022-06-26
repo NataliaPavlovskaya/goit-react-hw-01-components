@@ -1,10 +1,7 @@
 
 import React from 'react';
-import UserCards from './Profile/userCard'
+import UserCards from './Profile/user'
 import user from './Profile/user.json';
-
-import Statistics from './Statistics/Statistics';
-import statisticalData from './Statistics/data.json';
 
 const App = () => (
     <>
@@ -15,7 +12,6 @@ const App = () => (
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics title="Upload stats" stats={statisticalData} />
     </>
   );
   
