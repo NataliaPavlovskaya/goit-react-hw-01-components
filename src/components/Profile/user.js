@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './profile.module.css';
+import styles from './user.module.css';
 
 const UserCards = ({ name, tag, location, avatar, stats }) => (
   <div className={styles.profile}>
