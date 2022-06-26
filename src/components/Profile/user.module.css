@@ -14,7 +14,9 @@ html {
 	width: 250px;
 	text-align: center;
 	margin: auto;
-	border: solid 1px #d8e0ea;
+	border: solid 1px #5a5c5e;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .description {
@@ -23,32 +25,34 @@ html {
 }
 
 .avatar {
-	width: 128px;
-	height: 128px;
-	border-radius: 50%;
+	width: 100px;
+	height: 100px;
 	overflow: hidden;
+	border-radius: 50%;
+	border: solid 1px #5a5c5e;
 	text-align: center;
 	margin: auto;
+	margin-top: 10px;
 }
 
-.name {
+.username {
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 18px;
 	color: #333333;
 	font-weight: 700;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 .tag {
 	font-size: 14px;
-	color: #666666;
+	color: #97a2ae;
 	text-align: center;
 	margin-top: 10px;
 }
 
 .location {
 	font-size: 14px;
-	color: #97a2ae;
-	line-height: 32px;
+	color: #1b1c1d;
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
@@ -57,8 +61,9 @@ html {
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
-	background-color: #f3f6f9;
+	background-color: #afb2b5;
 	border-radius: 0 0 5px 5px;
+
 }
 
 .list {
@@ -66,13 +71,17 @@ html {
 	align-items: center;
 	border: solid 1px #d8e0ea;
 	width: 85px;
+
+	
 }
 
 .label {
-	color: #97a2ae;
+	color: #131414;
 	padding-top: 22px;
 	font-size: 12px;
 	display: flex;
+	
+	
 }
 
 .quantity {

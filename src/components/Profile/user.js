@@ -5,8 +5,8 @@ import styles from './user.module.css';
 const UserCards = ({ name, tag, location, avatar, stats }) => (
   <div className={styles.profile}>
     <div className={styles.description}>
-      <img src={avatar} alt="user avatar" className={styles.avatar} />
-      <p className={styles.name}>{name}</p>
+      <img src={avatar} alt="" className={styles.avatar} />
+      <p className={styles.username}>{name}</p>
       <p className={styles.tag}>@{tag}</p>
       <p className={styles.location}>{location}</p>
     </div>
@@ -29,14 +29,14 @@ const UserCards = ({ name, tag, location, avatar, stats }) => (
 );
 
   UserCards.propTypes = {
-    avatar: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    tag: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    tag: PropTypes.string,
+    location: PropTypes.string,
     stats: PropTypes.shape({
-      followers: PropTypes.number.isRequired,
-      views: PropTypes.number.isRequired,
-      likes: PropTypes.number.isRequired,
+      followers: PropTypes.number,
+      views: PropTypes.number,
+      likes: PropTypes.number,
     }),
   };
 
