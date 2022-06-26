@@ -1,5 +1,5 @@
 import React from 'react';
-import user from './Profile/user'
+import UserCards from './Profile/userCard'
 import user from './Profile/user.json';
 
 import Statistics from './Statistics/Statistics';
@@ -7,7 +7,7 @@ import statisticalData from './Statistics/data.json';
 
 const App = () => (
     <>
-      <Profile
+      <UserCards
         name={user.name}
         tag={user.tag}
         location={user.location}
